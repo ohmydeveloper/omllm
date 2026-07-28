@@ -1,0 +1,53 @@
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+
+# Operating system files
+Thumbs.db
+
+# Swift Package Manager and Xcode workspace state
+.swiftpm/xcode/package.xcworkspace/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.mobileprovision
+
+# Coverage, logs, and temporary files
+coverage/
+*.profdata
+*.profraw
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editor state
+.idea/
+.vscode/
+
+# Local AI assistant state, caches, and generated sessions.
+# Shared repository instructions under .agents/ remain tracked.
+.claude/
+.cursor/
+.continue/
+.aider/
+.copilot/
+.windsurf/
+.opencode/
+.codex/
+.agents/
+AGENTS.local.md
+CLAUDE.local.md
+skills-lock.json
